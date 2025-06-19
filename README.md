@@ -1,3 +1,2 @@
-# TradeBloom
-
-Official TradeBloom site – Automate. Profit. Bloom.
+# TradeBloom Full Site
+Production-ready source code
