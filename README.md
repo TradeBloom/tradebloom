@@ -1,3 +1,3 @@
 # TradeBloom
 
-Smart DCA bots to grow your crypto portfolio.
+Official TradeBloom site – Automate. Profit. Bloom.
