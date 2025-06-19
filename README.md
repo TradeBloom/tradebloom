@@ -1,2 +1,3 @@
 # TradeBloom
-This version is verified for Vercel deployment.
+
+Smart DCA bots to grow your crypto portfolio.
