@@ -1,16 +1,15 @@
-import React from 'react';
+import Link from 'next/link';
 
-const Navbar = () => {
+export default function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#bots">Bots</a></li>
-        <li><a href="#faqs">FAQs</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav className="bg-gray-900 text-white p-4 flex justify-between">
+      <div className="font-bold text-lg">TradeBloom</div>
+      <div className="space-x-4">
+        <Link href="/">Home</Link>
+        <Link href="/bots">Bots</Link>
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
+      </div>
     </nav>
   );
-};
-
-export default Navbar;
+}
